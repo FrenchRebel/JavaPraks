@@ -15,7 +15,11 @@ public class Dog {
     public void setAge(int age) {
         this.age = age;
     }
-
+    
+    public int Humage() {
+        return this.age*7;
+    }
+    
     public void setName(String name) {
         this.name = name;
     }
