@@ -31,7 +31,7 @@ public class Main {
 
 
         Dog dog = new Dog(age, name_dog);
-        System.out.println(dog.toString());
+        System.out.println(dog.toString() + " Human age : " + dog.Humage());
 
 
     }
